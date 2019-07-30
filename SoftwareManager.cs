@@ -81,26 +81,32 @@ public class Software
             public static int[] getVersionSplit(String versionString){
                 int[] versionArray = new int[3];
 
-                string[] splitVersion = versionString.Split('.',3,StringSplitOptions.RemoveEmptyEntries);
+                string[] splitVersion = versionString.Split(".",3,StringSplitOptions.RemoveEmptyEntries);
                 if(splitVersion.Length > 3){
                     for(int i = splitVersion.Length; i < 3; i++){
                         splitVersion[i] = "0";
                     }
                 }
-                for(int i = 0; i < splitVersion.Length; i++){                
-                    versionArray[i] = Convert.ToInt32(splitVersion[i]);
+                for(int i = 0; i < splitVersion.Length; i++){      
+                    Console.Write("split version at i is: " + splitVersion[i]);
+                    int strVal;
+                    int.TryParse(splitVersion[i], out strVal);
+                    versionArray[i] = strVal;
                 }
 
                 return versionArray;
             }
 
-            public static bool checkVersions(int[] checkVersion, int[] softwareVersion){
+            public static bool checkVersions(int[] checkVersion, int[] softwareVersion){                
                 for(int i = 0; i < checkVersion.Length; i++){
-                    if(checkVersion[i] > softwareVersion[i]){
+                    if(checkVersion[i] < softwareVersion[i]){
+                        return true;
+                    }
+                    else if(checkVersion[i] > softwareVersion[i]){
                         return false;
                     }
                 }
-                return true;
+                return false;
             }
         }
         
