@@ -1,0 +1,14 @@
+C:\Users\Stuff\Desktop\dotNet\esCodeChallenge\versionSearch\bin\Debug\netcoreapp2.2\versionSearch.deps.json
+C:\Users\Stuff\Desktop\dotNet\esCodeChallenge\versionSearch\bin\Debug\netcoreapp2.2\versionSearch.runtimeconfig.json
+C:\Users\Stuff\Desktop\dotNet\esCodeChallenge\versionSearch\bin\Debug\netcoreapp2.2\versionSearch.runtimeconfig.dev.json
+c:\Users\Stuff\Desktop\dotNet\esCodeChallenge\versionSearch\bin\Debug\netcoreapp2.2\versionSearch.dll
+c:\Users\Stuff\Desktop\dotNet\esCodeChallenge\versionSearch\bin\Debug\netcoreapp2.2\versionSearch.pdb
+c:\Users\Stuff\Desktop\dotNet\esCodeChallenge\versionSearch\obj\Debug\netcoreapp2.2\versionSearch.csprojAssemblyReference.cache
+c:\Users\Stuff\Desktop\dotNet\esCodeChallenge\versionSearch\obj\Debug\netcoreapp2.2\versionSearch.csproj.CoreCompileInputs.cache
+c:\Users\Stuff\Desktop\dotNet\esCodeChallenge\versionSearch\obj\Debug\netcoreapp2.2\versionSearch.RazorAssemblyInfo.cache
+c:\Users\Stuff\Desktop\dotNet\esCodeChallenge\versionSearch\obj\Debug\netcoreapp2.2\versionSearch.RazorAssemblyInfo.cs
+c:\Users\Stuff\Desktop\dotNet\esCodeChallenge\versionSearch\obj\Debug\netcoreapp2.2\versionSearch.AssemblyInfoInputs.cache
+c:\Users\Stuff\Desktop\dotNet\esCodeChallenge\versionSearch\obj\Debug\netcoreapp2.2\versionSearch.AssemblyInfo.cs
+c:\Users\Stuff\Desktop\dotNet\esCodeChallenge\versionSearch\obj\Debug\netcoreapp2.2\versionSearch.RazorTargetAssemblyInfo.cache
+c:\Users\Stuff\Desktop\dotNet\esCodeChallenge\versionSearch\obj\Debug\netcoreapp2.2\versionSearch.dll
+c:\Users\Stuff\Desktop\dotNet\esCodeChallenge\versionSearch\obj\Debug\netcoreapp2.2\versionSearch.pdb
