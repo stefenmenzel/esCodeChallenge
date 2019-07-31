@@ -61,6 +61,8 @@ public class Software
                 };
             }
 
+            //This function loops through the list of available software and compares version numbers vs the 
+            //version the user has input.
             public static List<Software> doVersionComparison(string versionToCheck){
                 List<Software> matchingVersions = new List<Software>();
                 // Version checkVersion = new Version(versionToCheck);
@@ -78,6 +80,8 @@ public class Software
                 return matchingVersions;
             }
 
+            //this function takes a version string and splits it into an array of 3 integers
+            //also fills in zeros(0) if the version number doesn't have enough...numbers
             public static int[] getVersionSplit(String versionString){
                 int[] versionArray = new int[3];
 
@@ -97,6 +101,8 @@ public class Software
                 return versionArray;
             }
 
+            //this actually does the checking...we loop through the two version arrays
+            //and compare each version portion individually.
             public static bool checkVersions(int[] checkVersion, int[] softwareVersion){                
                 for(int i = 0; i < checkVersion.Length; i++){
                     if(checkVersion[i] < softwareVersion[i]){

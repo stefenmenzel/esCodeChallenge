@@ -3,7 +3,6 @@ using System.Threading.Tasks;
 using System;
 using System.Collections.Generic;
 using VersionGetter;
-using VersionApi.Models;
 
 namespace VersionApi.Controllers
 {
@@ -16,11 +15,13 @@ namespace VersionApi.Controllers
             
         }
 
+        //if the user doesn't enter a version number, return all versions.
         [HttpGet]
         public IEnumerable<Software> GetAllVersions(){
             return VersionGetter.SoftwareManager.GetAllSoftware();
         }
 
+        //if the user enters a version number, check version numbers.
         [HttpGet("{version}")]
         public List<Software> GetVersions(string version){
             Console.Write("version received: " + version);

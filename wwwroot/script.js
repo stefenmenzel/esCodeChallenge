@@ -8,7 +8,7 @@ function documentReady(){
 }
 
 function formSubmit(){
-    $("#versionButton").on("click",function (e) {
+    $("#versionForm").on("submit", function (e) {
         e.preventDefault();
         let versionInput = $("#versionInput").val();
         console.log('event', e);

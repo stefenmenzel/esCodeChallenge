@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.headerDiv{
+    background-color: darkcyan;
+    height:15%;
+    padding-top: 1px;
+}
+
+.mainHeader{
+    display:block;
+    text-align: center;
+    margin:50px;
+    font-size: 3.5vw;
+}
+
+.formDiv{
+    margin:5%;
+}
+
+#versionInput{
+    width: 20%;
+    height: 35px;
+    font-size: 2.5vw;
+    vertical-align: bottom;
+}
+
+#versionButton{
+    margin: auto;
+    height:41px;
+    width: 25%;
+    font-size: 2vw;
+    vertical-align: bottom;
+}
+
+.listDiv{
+    margin:5%;
+}
+
+.listHeader{
+    font-size: 2.75vw;
+}
+
+#versionList{
+    font-size: 1.75vw;
+}

@@ -6,17 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Find a Version</h1>
-    <form id="versionForm">
-        <input id="versionInput" />
-        <button id="versionButton" type="button">Search Versions</button>
-    </form>
+    <div class="headerDiv">
+        <h1 class="mainHeader">Find a Version</h1>
+    </div>
 
-    <ul id="versionList">
+    <div class="formDiv">
+        <form id="versionForm">
+            <input id="versionInput" />
+            <button id="versionButton" type="submit">Search Versions</button>
+        </form>
+    </div>    
 
-    </ul>
+    <div class="listDiv">
+        <h2 class="listHeader">Software List</h2>
+        <ul id="versionList">
+    
+        </ul>
+    </div>    
 </body>
 </html>
